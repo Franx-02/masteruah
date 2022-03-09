@@ -106,17 +106,17 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 
 | 1. En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit. |
 | ------------------------------------------------------------ |
-|                                                              |
+| git commit -m "v3"                                           |
 
 
 | 1. Posicionarse en la rama **v0.2** y poner **Adios** en el fichero "1.txt" y hacer commit. |
 | ------------------------------------------------------------ |
-|                                                              |
+| git checkout v0.2 git commit -m "v2"                         |
 
 
 | 1. Posicionarse de nuevo en la rama **master** y hacer un merge con la rama **v0.2** |
 | ------------------------------------------------------------ |
-|                                                              |
+| git checkout main git merge v0.2                             |
 
 
 ## Listado de ramas

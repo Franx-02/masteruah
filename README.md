@@ -144,14 +144,14 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 
 | 1. Borrar la rama **v0.2** |
 | -------------------------- |
-| git checkout -d v0.2       |
+| git branch -d v0.2         |
 
 
 ## Listado de cambios
 
 | 1. Listar los distintos commits con sus ramas y sus tags. |
 | --------------------------------------------------------- |
-|                                                           |
+| git log                                                   |
 
  ## Cuenta de GitHub
 

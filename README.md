@@ -32,13 +32,11 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 | ------------------------------------------------------------ |
 | git commit -m "commit inicial"                               |
 
-| ## Push inicial |
+| ## Push inicial
+1. Subir los cambios al repositorio remoto.|
 | --------------- |
 | git push        |
-
-| 1. Subir los cambios al repositorio remoto. |
-| ------------------------------------------- |
-|                                             |
+ 
 
 
 | ## Añadir fichero 1.txt |

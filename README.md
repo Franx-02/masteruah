@@ -156,64 +156,36 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
  ## Cuenta de GitHub
 
 
-| 1. Poner una foto en vuestro perfil de GitHub. |
-| ---------------------------------------------- |
-|                                                |
+1. Poner una foto en vuestro perfil de GitHub.
 
-| 1. Poner el doble factor de autentificación en vuestra cuenta de GitHub. |
-| ------------------------------------------------------------ |
-|                                                              |
 
-| 1. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador. |
-| ------------------------------------------------------------ |
-|                                                              |
+1. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+
+1. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.                                                             |
 
 ## Uso social de GitHub
 
 
-| 1. Preguntar los nombres de usuario de GitHub de tus compañeros de trabajo en grupo, búscalos, y sigueles. |
+1. Preguntar los nombres de usuario de GitHub de tus compañeros de trabajo en grupo, búscalos, y sigueles.
+
+1. Añadir una estrella a los repositorios del resto de tus compañeros.
+
+
+## Crear una tabla 
+
+
+1. Crear una tabla de este estilo en el fichero **README.md** con la información de varios de tus compañeros de clase:
+
+
+|         NOMBRE                                                                                                 GITHUB        |
+| ------------------------------------------------------------ |
+| \| Ignacio \| [enlace a github 1](https://github.com/IgnacioJavier) \| |
 | ------------------------------------------------------------ |
 |                                                              |
-
-| 1. Añadir una estrella a los repositorios del resto de tus compañeros. |
+| \| Alfonso \| [enlace a github 1](https://github.com/AlfonsoAlcaraz) \| |
 | ------------------------------------------------------------ |
 |                                                              |
-
-
-| ## Crear una tabla |
-| ------------------ |
-|                    |
-
-
-| 1. Crear una tabla de este estilo en el fichero **README.md** con la información |
-| ------------------------------------------------------------ |
-|                                                              |
-
-| de varios de tus compañeros de clase: |
-| ------------------------------------- |
-|                                       |
-
-|      |
-| ---- |
-|      |
-
-| \|        NOMBRE          \|                     GITHUB                        \| |
-| ------------------------------------------------------------ |
-|                                                              |
-
-| \|------------------------\|---------------------------------------------------\| |
-| ------------------------------------------------------------ |
-|                                                              |
-
-| \| Nombre del compañero 1 \| [enlace a github 1](http://github.com/i12vecaj) \| |
-| ------------------------------------------------------------ |
-|                                                              |
-
-| \| Nombre del compañero 2 \| [enlace a github 1](http://github.com/i12vecaj) \| |
-| ------------------------------------------------------------ |
-|                                                              |
-
-| \| Nombre del compañero 3 \| [enlace a github 3](http://github.com/i12vecaj) \| |
+| \| Carlos Piña \| [enlace a github 3](https://github.com/carlospdlt) \| |
 | ------------------------------------------------------------ |
 |                                                              |
 

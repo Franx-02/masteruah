@@ -32,91 +32,76 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 | ------------------------------------------------------------ |
 | git commit -m "commit inicial"                               |
 
-| ## Push inicial
-1. Subir los cambios al repositorio remoto.|
+| ## Push inicial 1. Subir los cambios al repositorio remoto.|
 | --------------- |
 | git push        |
- 
 
 
-| ## Añadir fichero 1.txt |
-| ----------------------- |
-|                         |
+
+## Añadir fichero 1.txt 
 
 | 1. Añadir fichero **1.txt** al repositorio local. |
 | ------------------------------------------------- |
-|                                                   |
+| touch fichero1.txt                                |
 
-| ## Crear el tag v0.1 |
-| -------------------- |
-|                      |
+## Crear el tag v0.1 
 
 
-| 1. Crear un tag **v0.1**. |
-| ------------------------- |
-|                           |
+| 1. Crear un tag **v0.1**.                            |
+| ---------------------------------------------------- |
+| git tag 1.0 9719c5515663ec8fc9f3ada0186fc6fd65e7af5d |
 
 
-| ## Subir el tag v0.1 |
-| -------------------- |
-|                      |
+## Subir el tag v0.1
 
 
 | 1. Subir los cambios al repositorio remoto. |
 | ------------------------------------------- |
-|                                             |
+| git commit -m "v2" |
+|git push                 |
 
+## Crear una rama v0.2
 
-| ## Crear una rama v0.2 |
-| ---------------------- |
-|                        |
 
 
 | 1. Crear una rama **v0.2**. |
 | --------------------------- |
-|                             |
+| git checkout -b "v0.2"      |
 
 
 | 1. Posiciona tu carpeta de trabajo en esta rama. |
 | ------------------------------------------------ |
-|                                                  |
+| git checkout v0.2                                |
 
-| ## Añadir fichero 1.txt |
-| ----------------------- |
-|                         |
+ ## Añadir fichero 2.txt
 
 
 | 1. Añadir un fichero **2.txt** en la rama **v0.2**. |
 | --------------------------------------------------- |
-|                                                     |
+| git add fichero2.txt                                |
 
 
-| ## Crear rama remota v0.2 |
-| ------------------------- |
-|                           |
+ ## Crear rama remota v0.2
 
 
 | 1. Subir los cambios al reposiorio remoto. |
 | ------------------------------------------ |
-|                                            |
+| git commit -m "v1"                         |
 
 
-| ## Merge directo |
-| ---------------- |
-|                  |
+ ## Merge directo 
 
 | 1. Posicionarse en la rama **master**. |
 | -------------------------------------- |
-|                                        |
+| git checkout main                      |
 
 | 1. Hacer un merge de la rama **v0.2** en la rama **master**. |
 | ------------------------------------------------------------ |
-|                                                              |
+| git merge v0.2                                               |
 
 
-| ## Merge con conflicto |
-| ---------------------- |
-|                        |
+## Merge con conflicto
+
 
 
 | 1. En la rama **master** poner **Hola** en el fichero **1.txt** y hacer commit. |
@@ -134,9 +119,7 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 |                                                              |
 
 
-| ## Listado de ramas |
-| ------------------- |
-|                     |
+## Listado de ramas
 
 
 | 1. Listar las ramas con merge y las ramas sin merge. |
@@ -144,19 +127,14 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 |                                                      |
 
 
-| ## Arreglar conflicto |
-| --------------------- |
-|                       |
+## Arreglar conflicto
 
 
 | 1. Arreglar el conflicto anterior y hacer un commit. |
 | ---------------------------------------------------- |
 |                                                      |
 
-
-| ## Borrar rama |
-| -------------- |
-|                |
+## Borrar rama
 
 
 | 1. Crear un tag **v0.2** |
@@ -169,9 +147,7 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 |                            |
 
 
-| ## Listado de cambios |
-| --------------------- |
-|                       |
+## Listado de cambios
 
 | 1. Listar los distintos commits con sus ramas y sus tags. |
 | --------------------------------------------------------- |

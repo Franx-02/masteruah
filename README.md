@@ -124,7 +124,7 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 
 | 1. Listar las ramas con merge y las ramas sin merge. |
 | ---------------------------------------------------- |
-|                                                      |
+| git branch                                           |
 
 
 ## Arreglar conflicto
@@ -132,19 +132,19 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 
 | 1. Arreglar el conflicto anterior y hacer un commit. |
 | ---------------------------------------------------- |
-|                                                      |
+| git commit -m "v5"                                   |
 
 ## Borrar rama
 
 
 | 1. Crear un tag **v0.2** |
 | ------------------------ |
-|                          |
+| git tag 0.2              |
 
 
 | 1. Borrar la rama **v0.2** |
 | -------------------------- |
-|                            |
+| git checkout -d v0.2       |
 
 
 ## Listado de cambios

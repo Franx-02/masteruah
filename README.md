@@ -206,11 +206,13 @@ Notas: en este documento tendreís que ir poniendo los **comandos** que habéis 
 
 | 1. Crear 2 equipos en la organización **masteruah-tunombredeusuariodegithub**, |
 | ------------------------------------------------------------ |
-|                                                              |
+| ![image-20220311163822626](C:\Users\Francisco Javier\AppData\Roaming\Typora\typora-user-images\image-20220311163822626.png) |
 
 | uno llamado **administradores** con más permisos y otro **colaboradores** con menos permisos. |
 | ------------------------------------------------------------ |
 |                                                              |
+
+
 
 | 1. Meter a [github.com/i12vecaj](http://github.com/i12vecaj) y a 2 de vuestros |
 | ------------------------------------------------------------ |
